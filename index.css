@@ -1,0 +1,61 @@
+.banner {
+   background: url('../projeto/images/banner/banner.png') center/cover no-repeat;
+  height: 400px;
+  color: rgb(255, 255, 255);
+}
+
+.text{
+  color: #6EB3D0;
+  margin-top: 5px;
+  padding-bottom: 20px;
+}
+
+.text-pink {
+  color: #F7B6D2;
+}
+
+/* fotos */
+
+.foto{
+  display: flex;
+}
+
+.texto1{
+  padding: 10px;
+  color: #6EB3D0;
+}
+
+.texto3{
+  color: #6EB3D0;
+}
+
+
+.img-adocao {
+  width: 100%;
+  height: 200px;
+  background: url('../projeto/images/dogsSection/img1.png') center/cover no-repeat;
+  border-radius: 5px;
+}
+
+.card img {
+  height: 200px;
+}
+
+.card {
+  border-radius: 25px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-warning {
+  background-color: #c873b9;
+  border: none;
+}
+
+.btn-info {
+  background-color: #73b8d3;
+  border: none;
+}
